@@ -22,7 +22,7 @@ Please refer to [**playenv**](https://github.com/mazgi/playenv) in the case of u
     $ echo 'export PATH="${HOME}/.sbtenv/bin:${PATH}"' >> ~/.zshrc
     ~~~
 
-3. Add `sbtenv init` to your shell to enable shims and autocompletion.  
+3. Add `sbtenv init` to your shell to enable shims and autocompletion.
 
     ~~~ sh
     $ echo 'eval "$(sbtenv init -)"' >> ~/.zshrc
